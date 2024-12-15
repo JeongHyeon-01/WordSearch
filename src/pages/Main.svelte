@@ -9,13 +9,19 @@
     <img src="./img/word-search-puzzle-main.png" alt="puzzle" />
     <div class="description-box">
       <div class="inner-box">
-        <h1 class="title">Word Search</h1>
+        <h1 class="title">
+            Word Search
+        </h1>
         <p>안녕하세요 Word Search 게임입니다.</p>
         <p>
           놀기에도 재미있을 뿐만 아니라 교육적이기도 하여 실제로 많은 교사들이 활용하고 있습니다.
         </p>
         <p>
           퍼즐은 데스크톱 PC, Mac, 모바일 및 태블릿에서 100% 무료로 플레이 할 수 있습니다.
+        </p>
+        <p>
+          <a href="https://thewordsearch.com/">https://thewordsearch.com/</a>
+           해당페이지를 클론한 프로젝트입니다.
         </p>
       </div>
     </div>
@@ -79,6 +85,15 @@
   
     .description-box {
       width: 90%;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:visited { 
+      color:black; 
+    }
+    a:hover { 
+      color: blue; 
     }
   }
   </style>

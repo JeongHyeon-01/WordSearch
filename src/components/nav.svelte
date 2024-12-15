@@ -6,9 +6,7 @@
   <!-- 내비게이션 메뉴 -->
   <nav class="nav" class:open={$isMenuOpen} class:close={!$isMenuOpen}>
     <a href="/" class="nav-item" class:item-open={$isMenuOpen}>Home</a>
-    <a href="/maker" class="nav-item" class:item-open={$isMenuOpen}>Games</a>
-    <a href="/about" class="nav-item" class:item-open={$isMenuOpen}>About</a>
-    <a href="/contact" class="nav-item" class:item-open={$isMenuOpen}>Contact</a>
+    <a href="/#/maker" class="nav-item" class:item-open={$isMenuOpen}>GameMaker</a>
   </nav>
   
   <style>

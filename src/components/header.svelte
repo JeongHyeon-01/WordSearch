@@ -8,11 +8,13 @@
     <div class="header-container">
       <!-- 로고 섹션 -->
       <div class="logo">
-        <span class="small">The</span>
-        <div class="word-row">
-          <span class="large">Word</span>
-          <span class="highlight">Search</span>
-        </div>
+        <a href="/">
+          <span class="small">The</span>
+          <div class="word-row">
+            <span class="large">Word</span>
+            <span class="highlight">Search</span>
+          </div>
+        </a>
       </div>
   
       <!-- 메뉴 버튼 -->
@@ -111,6 +113,12 @@
     height: auto;
     border: 3px solid #028080;
     border-radius: 8px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:visited{
+    color: #028080;
   }
     
   /* 반응형 설정 */
